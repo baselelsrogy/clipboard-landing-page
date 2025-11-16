@@ -152,3 +152,62 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
+.img-devices {
+    display: flex;
+    justify-content: center;
+    margin: 90px auto 10px;
+}
+
+.img-devices img {
+    width: 950px;
+    height: 600px;
+}
+
+.workflow {
+    /* min-height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    margin-bottom: 80px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.content-card i {
+    color: var(--Gray-500);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-card h4 {
+    color: var(--Gray-700);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content-card p {
+    color: var(--Gray-500);
+    line-height: 1.8;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 140px;
+}
