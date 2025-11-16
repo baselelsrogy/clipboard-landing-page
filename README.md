@@ -7,7 +7,7 @@ This project is part of my **Front-End learning practice**, inspired by a challe
 
 ## 🚀 Live Preview
 
--   LIVE
+-   [Live](https://baselelsrogy.github.io/clipboard-landing-page/)
 
 ## 🛠️ Built With
 
