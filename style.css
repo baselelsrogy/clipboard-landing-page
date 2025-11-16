@@ -1,0 +1,154 @@
+:root {
+    --Green-500: hsl(171, 66%, 44%);
+    --Blue-100: hsl(233, 100%, 69%);
+    --Gray-700: hsl(210, 10%, 33%);
+    --Gray-500: hsl(201, 11%, 66%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 320px;
+}
+
+.background-header {
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    left: 0;
+}
+
+.header .icon {
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    font-size: 160px;
+    color: var(--Green-500);
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.history {
+    margin-bottom: 130px;
+}
+
+.component {
+    margin: 25px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-history {
+    font-size: 50px;
+    color: var(--Gray-700);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.component .title {
+    font-size: 42px;
+    color: var(--Gray-700);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.component .description {
+    color: var(--Gray-500);
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.btns {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.btns .btn {
+    font-size: 20px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.btn-ios {
+    background-color: var(--Green-500);
+    box-shadow: 0px 1px 11px -1px var(--Green-500);
+}
+
+.btn-mac {
+    background-color: var(--Blue-100);
+    box-shadow: 0px 1px 11px -1px var(--Blue-100);
+}
+
+.snippest {
+    margin-bottom: 50px;
+}
+
+.design {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.image-sec {
+    position: relative;
+    left: -190px;
+}
+
+.computer {
+    width: 790px;
+    height: 600px;
+}
+
+.list-items {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-left: -55px;
+    text-align: left;
+}
+
+.title-item {
+    color: var(--Gray-700);
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.des-item {
+    color: var(--Gray-500);
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 400;
+}
