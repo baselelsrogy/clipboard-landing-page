@@ -42,7 +42,9 @@ body {
 }
 
 .container {
-    width: 1250px;
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -138,8 +140,8 @@ body {
 }
 
 .computer {
-    width: 790px;
-    height: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 .list-items {
@@ -173,8 +175,8 @@ body {
 }
 
 .img-devices img {
-    width: 950px;
-    height: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* WORK-FLOW SECTION */
@@ -272,4 +274,125 @@ footer {
     font-size: 30px;
     cursor: pointer;
     color: var(--Blue-100);
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+    .title-history,
+    .component .title {
+        font-size: 36px;
+    }
+
+    .component .description {
+        font-size: 18px;
+    }
+
+    .design {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .image-sec {
+        left: 0;
+        margin-bottom: 40px;
+    }
+
+    .list-items {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .sponsers {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .info-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .title-history,
+    .component .title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .component .description {
+        font-size: 16px;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btns .btn {
+        width: 100%;
+        padding: 18px 0;
+        font-size: 18px;
+    }
+
+    .header .icon {
+        top: 50%;
+        font-size: 90px;
+    }
+
+    .design {
+        padding: 0 10px;
+    }
+
+    .card-list {
+        grid-template-columns: 1fr;
+    }
+
+    .sponsers {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .info-list {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-list {
+        gap: 25px;
+    }
+}
+
+/*  SMALL MOBILE */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .title-history,
+    .component .title {
+        font-size: 26px;
+    }
+
+    .header .icon {
+        font-size: 70px;
+    }
+
+    .img-devices img {
+        width: 100%;
+    }
 }
